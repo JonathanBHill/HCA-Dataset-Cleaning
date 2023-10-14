@@ -2,8 +2,8 @@ import sqlalchemy
 from sqlalchemy import text, engine
 
 
-mysql_engine = engine.create_engine(
-	"mysql+pymysql://rootds:@localhost:3306/HCA_Data")
+# mysql_engine = engine.create_engine(
+# 	"mysql+pymysql://rootds:@localhost:3306/HCA_Data")
 
 queries = [
 	text("select * from ED_Enc;"),
